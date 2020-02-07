@@ -9,7 +9,9 @@ If number of neighbours <= 1 { die }
 
 If number of neighbours == 3 { become/stay alive }
 
-If number of neighbours >= 4 { die } (with 2 neighbours nothing happens)
+If number of neighbours >= 4 { die }
+
+(with 2 neighbours nothing happens)
 
 My rules for the music:
 
