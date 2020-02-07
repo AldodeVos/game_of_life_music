@@ -19,9 +19,9 @@ My rules for the music:
 
 1. Blocks that are neighbours of eachother form groups
 
-2. Groups take on the colour of its lowest member
+2. Groups take on the colour of their lowest member
 
 3. For each time a colour becomes visible and it wasn't already, play the note that's associated with that colour
 
-I've made very many variations on the rules, but they all had their musical problems.
+I've made very many variations on the music rules, but they all had their musical problems.
 These rules have their limitations too of course, but... well, you can try it yourself! I think they work great. http://www.aldodevos.nl/hidden_game_of_music/
