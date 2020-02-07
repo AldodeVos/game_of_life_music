@@ -30,7 +30,7 @@ if (last_browser_size[0] != browser_width or last_browser_size[1] != browser_hei
 	x = room_width/2;
 	y = room_height/2;
 	
-	instance_destroy(obj_test);
+	instance_destroy(obj_block);
 	for (var i = 0; i*block_height <= room_width; i += 1)
 	{
 		max_width = i	
@@ -39,7 +39,7 @@ if (last_browser_size[0] != browser_width or last_browser_size[1] != browser_hei
 	{
 		for (var xx = 0; xx*block_height <= room_width; xx += 1)
 		{
-			blocks[xx,yy] = instance_create_layer(xx*block_height,yy*block_height,"Instances",obj_test);
+			blocks[xx,yy] = instance_create_layer(xx*block_height,yy*block_height,"Instances",obj_block);
 			with blocks[xx,yy]
 			{
 				check_xx = xx;

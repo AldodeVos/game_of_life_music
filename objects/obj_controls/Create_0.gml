@@ -57,7 +57,7 @@ for (var yy = 0; yy*block_height <= room_height; yy += 1)
 {
 	for (var xx = 0; xx*block_height <= room_width; xx += 1)
 	{
-		blocks[xx,yy] = instance_create_layer(xx*block_height,yy*block_height,"Instances",obj_test)
+		blocks[xx,yy] = instance_create_layer(xx*block_height,yy*block_height,"Instances",obj_block)
 		with blocks[xx,yy]
 		{
 			check_xx = xx;
