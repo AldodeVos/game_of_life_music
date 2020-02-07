@@ -5,15 +5,16 @@ It uses the basic rules of Conway's game of life for the blocks and I've added r
 Conway's game of life has rules for each block/cell in an inifit grid:
 
 
-If number of neighbours <= 1 { die }
+1. If number of neighbours <= 1 { die }
 
-If number of neighbours == 3 { become/stay alive }
+2. If number of neighbours == 3 { become/stay alive }
 
-If number of neighbours >= 4 { die }
+3. If number of neighbours >= 4 { die }
 
 (with 2 neighbours nothing happens)
 
 My rules for the music:
+
 
 
 1. Blocks that are neighbours of eachother form groups
